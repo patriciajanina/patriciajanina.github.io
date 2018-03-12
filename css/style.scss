@@ -335,12 +335,18 @@ Slajader background
 }
 
 //..............section-three
+.section-three-wraper{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  @media #{$phone} {
+    margin-bottom: 5px;
+  }
+}
 .section-three-img-wraper{
   @media #{$bigScreen} {
     display: flex;
     flex-direction: column;
     align-items: center;
-
   }
 }
 .two{

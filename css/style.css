@@ -900,6 +900,13 @@ Slajader background
     .section-two-column {
       width: 90%; } }
 
+.section-three-wraper {
+  margin-top: 50px;
+  margin-bottom: 100px; }
+  @media (max-width: 450px) {
+    .section-three-wraper {
+      margin-bottom: 5px; } }
+
 @media (max-width: 800px) {
   .section-three-img-wraper {
     display: flex;
